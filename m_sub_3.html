@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/gjk8png.css">
+    <title>WORKS</title>
+    <script>
+        function Mobile(){
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);}
+        if (Mobile()){
+        } else {
+        location.href="sub_3.html";
+        }
+        </script>
+</head>
+<link rel="stylesheet" href="css/m_sub_3.css">
+<link rel="icon" href="img/로고.png">
+<body>
+    <div class="menubar">
+        <a href="m_index.html"><div class="logo"><img src="img/logo.png" alt=""></div></a>
+        <div class="menu" id="open"><img src="img/menu.svg" alt=""></div>
+    </div>
+    <ul class="menulist" id="menubox">
+        <a href="m_sub_1.html"><li>HISTORY</li></a>
+        <a href="m_sub_2.html"><li>INTERVIEW</li></a>
+        <a href="m_sub_3.html"><li>WORKS</li></a>
+        <a href="m_sub_4.html"><li>MAPS</li></a>
+        <div class="cbt" id="close">Menu Close</div>
+    </ul>
+    <div class="contents">
+        <div class="box1"></div>
+        <div class="txt1">
+            <h1>03</h1>
+            <h1>WORKS</h1>
+        </div>
+    </div>
+    <div class="cont1">
+        <div class="box2"></div>
+        <h2 class="th">Public Theater</h2>
+        <img src="img/mpublic.png" alt="Public Theater">
+        <p>Paula의 가장 큰 업적 중 하나는 1994년 The Public Theatre의  최초의 디자이너가 된 것이다. 여기에는 로고, 대형 광고판, 포스터 및 문구류 제작이 포함되어있다.</p>
+    </div>
+    <div class="cont2">
+        <div class="box3"></div>
+        <h2 class="cbs">CBS Records </h2>
+        <img src="img/mCBS.png" alt="CBS Records ">
+        <p>CBS Records에서 아트 디렉터로 근무하는 동안 모든 스타일로 작업하는 방법을 배웠고 시대적 타이포그래피에 매료되었다. 70년대 후반에 수행된 많은 Paula의 작업은 이제 포스트모던 운동의 일부로 언급되며 초기 모더니스트 유형 및 이미지에 대한 그녀의 실험이 이를 보여준다.</p>
+    </div>
+    <footer>
+        <div class="cont9">
+            <img src="img/로고노랑.png" alt="로고">
+            <p class="t_6">ⓒ 2023 Paula Scher Web . All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('open').addEventListener('click',function(){
+            document.getElementById('menubox').style.display = 'block';
+        });
+        document.getElementById('close').addEventListener('click',function(){
+            document.getElementById('menubox').style.display = 'none';
+        });
+    </script>
+</body>
+</html>

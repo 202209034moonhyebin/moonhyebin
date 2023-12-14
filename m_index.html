@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://202209034moonhyebin.github.io/moonhyebin/">
+    <meta property="og:title" content="2023년 유한대학교 시각디자인과">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/yuhanvd.png">
+    <meta property="og:description" content="2023년 유한대학교 시각디자인과">
+    <link rel="stylesheet" href="https://use.typekit.net/gjk8png.css">
+    <title>Paula Scher</title>
+    <script>
+        function Mobile(){
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);}
+        if (Mobile()){
+        } else {
+        location.href="index.html";
+        }
+        </script>
+        
+</head>
+<link rel="stylesheet" href="css/m_style.css">
+<link rel="icon" href="img/로고.png">
+<body>
+    <div class="menubar">
+        <a href="m_index.html"><div class="logo"><img src="img/logo.png" alt=""></div></a>
+        <div class="menu" id="open"><img src="img/menu.svg" alt=""></div>
+    </div>
+    <ul class="menulist" id="menubox">
+        <a href="m_sub_1.html"><li>HISTORY</li></a>
+        <a href="m_sub_2.html"><li>INTERVIEW</li></a>
+        <a href="m_sub_3.html"><li>WORKS</li></a>
+        <a href="m_sub_4.html"><li>MAPS</li></a>
+        <div class="cbt" id="close">Menu Close</div>
+    </ul>
+    <div class="contents">
+        <div class="txt">
+            <p>The graphic designer</p>
+            <h1>Paula Scher</h1>
+        </div>
+    </div>
+    
+</body>
+<script>
+    document.getElementById('open').addEventListener('click',function(){
+        document.getElementById('menubox').style.display = 'block';
+    });
+    document.getElementById('close').addEventListener('click',function(){
+        document.getElementById('menubox').style.display = 'none';
+    });
+</script>
+
+</html>
